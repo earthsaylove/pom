@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
+
+body {
+  font-family: "Schoolbell", cursive;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #776391;
+}
+
+header ul {
+  background-color: transparent;
+}
+
+.navbar {
+  background-color: #3cacae;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  border-bottom: 15px double #c26dbc;
+  /*  responsive layout with flexbox  */
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-right: 1.5rem;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.nav-links ul li {
+  list-style: none;
+}
+
+h1 {
+  color: #c3fffc;
+  text-align: center;
+  font-size: 64px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+}
+
+ul {
+  background-color: #eeb5eb;
+  font-size: 24px;
+  text-align: center;
+  list-style-position: inside;
+  list-style: none;
+}
+
+img {
+  height: 840px;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.card-container {
+  flex: 0 0 100%;
+  display: flex;
+  /*   flex-wrap: wrap; */
+  /* Flex-flow is a combination of flex direction and flex-wrap. */
+  gap: 0.5rem;
+  flex-flow: row wrap;
+}
+
+.card {
+  flex: 0 0 100%;
+  gap: 2rem;
+  background-color: #eeb5eb;
+  border: 5px solid #c26dbc;
+  /*   max-width: 360px; */
+}
